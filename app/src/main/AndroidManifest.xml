@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Page3" />
+        <activity android:name=".Page2" />
+        <activity android:name=".Page1" />
+        <activity android:name=".Page0" />
+        <activity android:name=".MainActivity1" />
         <activity android:name=".HospitalMapActivity" />
         <activity android:name=".EmergencyNumbersActivity" />
         <activity android:name=".MainActivity"></activity>

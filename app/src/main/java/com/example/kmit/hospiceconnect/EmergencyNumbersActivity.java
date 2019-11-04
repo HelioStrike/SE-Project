@@ -2,6 +2,7 @@ package com.example.kmit.hospiceconnect;
 
 import android.content.Intent;
 import android.net.Uri;
+import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.text.util.Linkify;
@@ -15,6 +16,9 @@ public class EmergencyNumbersActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_emergency_numbers);
+
+        ActionBar actionBar = getSupportActionBar();
+        actionBar.hide();
 
         TextView police = (TextView) findViewById(R.id.police);
         TextView ambulance = (TextView) findViewById(R.id.ambulance);
